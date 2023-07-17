@@ -1,8 +1,104 @@
-<html>
-    <head>
-        <title>firsttaskint</title>
-    </head>
-    <body>
-<p>Lorem ipsum dolor sit amet, manopretha consectetur adipisicing elit. Non, adipisci architecto! Qui quisquam veritatis non fuga repellat tempore et, necessitatibus, sequi quas atque minima mollitia laudantium deleniti fugit. Velit, quia!</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Task</title>
+    <style>
+        h1{
+         text-align: center;
+        }
+        table th,tr,td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+  <h1>Task One</h1>  
+<br>
+<h2>01.Application Form</h2>
+<lable>Name : </lable>
+<input type="text" placeholder="Enter your name"><br>
+<br>
+<lable>Email : </lable>
+<input type="email" placeholder="Enter your email"><br><br>
+<lable>Gender : </lable>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<br><br>
+<lable>CHOOSE SKILLS</lable><br><br>
+<lable>HTML </lable>
+<input type="checkbox" name="choose skill" value="HTML">
+<lable>CSS </lable>
+<input type="checkbox" name="choose skill" value="CSS">
+<lable>JS </lable>
+<input type="checkbox" name="choose skill" value="JS">
+<lable>Bootsrap </lable>
+<input type="checkbox" name="choose skill" value="Bootstrap">
+<lable>React </lable>
+<input type="checkbox" name="choose skill" value="React">
+<br><br>
+<lable>JOB TYPE</lable>
+<select>
+<option>FRONT END DEVELOPER</option>
+<option>BACK END DEVELOPER</option>
+<option>FULL STOCK DEVELOPER</option></select>
+<BR><br>
+<lable>Choose your browser from the list: </lable>
+<input type="text">
+    <BR>
+<br>
+<textarea type="commend" rows="2" cols="20" placeholder="Give a brief summary about you"></textarea><br>
+<br>
+<button type="submit"> Submit</button>
+<br>
+<br>
+<br>
+<h2>02.Batch List</h2>
+<ul>
+    <li type="square">SENCHOLA UNIVERSITY</li><br>
+    <ol type="1">
+        <li>First Batch</li><br>
+        <ol type="A">
+            <li>Ravi</li><br>
+            <li>Manol</li><br>
+            <li>Sandhiya</li>
+        </ol><br>
+        <li>Second Batch</li><br>
+        <ol type="I">
+            <li>Sundhar</li>  <br>  
+            <li>Saranya</li><br>
+            <li>Nandhini</li><br>
+        </ol><br>
+        <li>Third Batch</li><br>
+        <ol type="i">
+            <li>Monika</li><br>
+            <li>Santhosh</li><br>
+            <li>Kannan</li><br>
+        </ol>
+    </ol>
+</ul>
+<h2>03.Course</h2>
+<table border>
+    <tr>
+        <th>S.NO 1</th>
+        <th>S.NO 2</th>
+        <th>S.NO 3</th>
+        <th>S.NO 4</th>
+    </tr>
+    <tr>
+        <td rowspan="2">REACT JS</td>
+        <td>HTML</td>
+        <td rowspan="2">REACT JS</td>
+        <tD>CSS</tD>
+    </tr>
+    <tr>
+    <td>CSS</td>
+    <td>HTML</td></tr>
+    <tR>
+        <td colspan="2">JAVASCRIPT</td>
+        <td colspan="2">BOOTSTRAP</td>
+    </tr>
+</table><br><br>
+</body>
 </html>
